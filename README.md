@@ -23,10 +23,10 @@ We recommend running them in a VM which has no internet connection (or an intern
 
 ## Getting Started
 
-Clone the repository with `git clone https://www.github.com/ytisf/theZoo`. Go to the directory and run `pip install --user -r requirements.txt`. This should install all latest requirements needed. In total can be "scripted" like so:
+Clone the repository with `git clone https://www.github.com/Pushpenderrathore/takashi`. Go to the directory and run `pip install --user -r requirements.txt`. This should install all latest requirements needed. In total can be "scripted" like so:
 
 ```bash
-git clone https://www.github.com/ytisf/theZoo
+git clone https://www.github.com/Pushpenderrathore/takashi
 cd theZoo
 pip install --user -r requirements.txt
 ```
@@ -88,7 +88,7 @@ Each directory is composed of 4 files:
 ## Bugs and Reports
 
 The repository holding all files is currently
-	https://github.com/ytisf/theZoo
+	https://github.com/Pushpenderrathore/takashi
 
 ### Submit Malware
 Get the file you want to submit and just run `python prep_file.py file_tosubmit.exe`. It will create a directory for you. Then just submit that along with the changes to the `conf/maldb.db` so that we know which malware it is.
