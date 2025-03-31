@@ -1,21 +1,21 @@
-# theZoo - A Live Malware Repository
+# takashi - A Live Malware Repository
 
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=round)](https://github.com/ytisf/theZoo/issues)
-[![HitCount](http://hits.dwyl.com/ytisf/theZoo.svg)](http://hits.dwyl.com/ytisf/theZoo)
-[![GitHub stars](https://img.shields.io/github/stars/ytisf/theZoo.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/ytisf/theZoo/stargazers/)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=round)](https://github.com/Pushpenderrathore/takashi/issues)
+[![HitCount](http://hits.dwyl.com/Pushpenderrathore/takashi.svg)](http://hits.dwyl.com/Pushpenderrathore/takashi)
+[![GitHub stars](https://img.shields.io/github/stars/Pushpenderrathore/takashi.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/Pushpenderrathore/takashi/stargazers/)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
-![Logo](https://github.com/ytisf/theZoo/raw/gh-pages/MalDB-Logo-Thumb.png)
+![Logo](https://github.com/Pushpenderrathore/takashi/raw/gh-pages/MalDB-Logo-Thumb.png)
 
-theZoo is a project created to make the possibility of malware analysis open and available to the public. Since we have found out that almost all versions of malware are very hard to come by in a way which will allow analysis, we have decided to gather all of them for you in an accessible and safe way.
-theZoo was born by Yuval tisf Nativ and is now maintained by Shahak Shalev.
+takashi is a project created to make the possibility of malware analysis open and available to the public. Since we have found out that almost all versions of malware are very hard to come by in a way which will allow analysis, we have decided to gather all of them for you in an accessible and safe way.
+takashi was born by Yuval tisf Nativ and is now maintained by Shahak Shalev.
 
-**theZoo is open and welcoming visitors!**
+**takashi is open and welcoming visitors!**
 
 If you are about to interact with our community please make sure to read our `CODE-OF-CONDUCT.md` prior to doing so. If you plan to contribute, first - thank you. However, do make sure to follow the standards on `CONTRIBUTING.md`.
 
 ## Disclaimer
-theZoo's purpose is to allow the study of malware and enable people who are interested in malware analysis (or maybe even as a part of their job) to have access to live malware, analyse the ways they operate, and maybe even enable advanced and savvy  people to block specific malware within their own environment.
+takashi's purpose is to allow the study of malware and enable people who are interested in malware analysis (or maybe even as a part of their job) to have access to live malware, analyse the ways they operate, and maybe even enable advanced and savvy  people to block specific malware within their own environment.
 
 **Please remember that these are live and dangerous malware! They come encrypted and locked for a reason!  Do NOT run them unless you are absolutely sure of what you are doing! They are to be used only for educational purposes (and we mean that!) !!!**
 
@@ -27,17 +27,17 @@ Clone the repository with `git clone https://www.github.com/Pushpenderrathore/ta
 
 ```bash
 git clone https://www.github.com/Pushpenderrathore/takashi
-cd theZoo
+cd takashi
 pip install --user -r requirements.txt
 ```
 
 Start by running the console:
 
-`python theZoo.py`
+`python takashi.py`
 
 
 ## License
-theZoo - the most awesome free malware database on the air
+takashi - the most awesome free malware database on the air
 Copyright (C) 2015-2021, Yuval Nativ, Lahad Ludar, 5fingers
 
 This program is free software: you can redistribute it and/or modify
@@ -55,16 +55,20 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 You can also find more information in `LICENSE.md`.
 
-**License section does not apply to any of malicious samples in theZoo's repository which includes samples and source code, reversed or otherwise.**
+**License section does not apply to any of malicious samples in takashi's repository which includes samples and source code, reversed or otherwise.**
 
 ## Documentation and Notes
 
 ### Background
-theZoo's objective is to offer a fast and easy way of retrieving malware samples and source code in an organized fashion in hopes of promoting malware research.
+takashi's objective is to offer a fast and easy way of retrieving malware samples and source code in an organized fashion in hopes of promoting malware research.
 
 ### Root Files
-Since version 0.42 theZoo has been undergoing dramatic changes. It now runs in both CLI and ARGVS modes. You can call the program with the same command line arguments as before.
-The current default state of theZoo runtime is the CLI. The following files and directories are responsible for the application's behaviour.
+Since v
+
+
+
+ersion 0.42 takashi has been undergoing dramatic changes. It now runs in both CLI and ARGVS modes. You can call the program with the same command line arguments as before.
+The current default state of takashi runtime is the CLI. The following files and directories are responsible for the application's behaviour.
 
 `/conf` - The conf folder holds files relevant to the particular running of the program but are not part of the application. You can find the EULA file in the conf and more.
 
